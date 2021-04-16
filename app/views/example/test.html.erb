@@ -12,3 +12,9 @@
 <p>
   The current time is <%= @current_time %>
 </p>
+
+
+...
+<%= render partial: 'shared/footer', locals: {start_year: '2000'} %>
+<%= render partial: 'shared/footer', locals: {start_year: nil} %>
+<%= render 'shared/footer' %>
