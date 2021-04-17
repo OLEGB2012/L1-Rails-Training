@@ -18,3 +18,9 @@
 <%= render partial: 'shared/footer', locals: {start_year: '2000'} %>
 <%= render partial: 'shared/footer', locals: {start_year: nil} %>
 <%= render 'shared/footer' %>
+
+<% (1..5).each do |i| %>
+  <p>
+    <b><%= "Rating for #{i} stars: " %></b> <%= render_stars(i) %>
+  </p>
+<% end %>
