@@ -4,6 +4,7 @@ module ApplicationHelper
     if (1..5).include?(value)
       value.times { output += '*'}
     end
+    byebug
     output
   end
 end
