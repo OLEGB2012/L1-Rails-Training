@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Post.create(subject: 'A test', published_on: '01.10.2020')
+Post.create(subject: 'Another test', published_on: '01.10.2020')
+Post.create(subject: 'And yet one more test', published_on: '02.10.2020')
+Post.create(subject: 'Last test', published_on: '01.11.2020')
+Post.create(subject: 'Very final test', published_on: '01.11.2020')
