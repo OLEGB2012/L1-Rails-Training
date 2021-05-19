@@ -33,6 +33,12 @@ GEM
       activemodel (= 5.2.5)
       activesupport (= 5.2.5)
       arel (>= 9.0)
+    activerecord-session_store (2.0.0)
+      actionpack (>= 5.2.4.1)
+      activerecord (>= 5.2.4.1)
+      multi_json (~> 1.11, >= 1.11.2)
+      rack (>= 2.0.8, < 3)
+      railties (>= 5.2.4.1)
     activestorage (5.2.5)
       actionpack (= 5.2.5)
       activerecord (= 5.2.5)
@@ -98,6 +104,7 @@ GEM
     mini_portile2 (2.5.0)
     minitest (5.14.4)
     msgpack (1.4.2)
+    multi_json (1.15.0)
     nio4r (2.5.7)
     nokogiri (1.11.3)
       mini_portile2 (~> 2.5.0)
@@ -190,6 +197,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-session_store
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
