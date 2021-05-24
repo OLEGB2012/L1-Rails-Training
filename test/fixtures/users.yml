@@ -1,0 +1,10 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  login_name: fox.mulder
+  last_name: Mulder
+  birthday: <%= 20.years.ago.to_s(:db) %>
+two:
+  login_name: dana.scully
+  last_name: Scully
+  birthday: <%= 20.years.ago.to_s(:db) %>
